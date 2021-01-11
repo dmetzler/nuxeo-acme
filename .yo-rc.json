@@ -1,0 +1,14 @@
+{
+  "generator-nuxeo": {
+    "lastRemote": "/Users/dmetzler/.cache/node-yeoman-remote-cache/nuxeo/generator-nuxeo-meta/2.9.2",
+    "promptValues": {
+      "nuxeo_version": "11.4",
+      "parent_package": "org.nuxeo.acme",
+      "parent_artifact": "nuxeo-acme-parent",
+      "parent_version": "1.0-SNAPSHOT",
+      "package": "org.nuxeo.acme.core"
+    },
+    "_nuxeo_version": "11.4",
+    "multi": true
+  }
+}
