@@ -1,5 +1,4 @@
 <component name="org.nuxeo.login.startup.page.web.contrib.override">
-<#if !((org.nuxeo.prod.environment)??) || (org.nuxeo.prod.environment) != "true">
   <require>org.nuxeo.login.startup.page.web.contrib</require>
 
   <extension point="loginScreen" target="org.nuxeo.ecm.platform.ui.web.auth.service.PluggableAuthenticationService">
@@ -7,5 +6,4 @@
       <loginBoxBackgroundStyle>#ffa500</loginBoxBackgroundStyle>
     </loginScreenConfig>
   </extension>
-</#if>
 </component>
